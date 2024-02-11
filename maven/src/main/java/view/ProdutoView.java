@@ -11,7 +11,7 @@ import model.Produto;
 public class ProdutoView {
     private Scanner scan;
     private List<Produto> produtos;
-    
+
     /**
      * Costrutor da Classe Produto
      *
@@ -30,10 +30,7 @@ public class ProdutoView {
         System.out.println("Produtos: ");
         System.out.println("---------------------------");
 
-        for (Produto v : this.produtos) {
-            System.out.println(v.toString());
-            System.out.println("---------------------------");
-        }
+        produtos.forEach((Produto v) -> System.out.println((v).toString() + "\n---------------------------"));
     }
 
     /**
@@ -104,7 +101,7 @@ public class ProdutoView {
         System.out.println("Qual campo deseja atualizar?");
         System.out.println("1. Nome.");
         System.out.println("2. Preco.");
-        System.out.println("3. Quantidade.");        
+        System.out.println("3. Quantidade.");
         int opcao = scan.nextInt();
         scan.nextLine(); // Limpar o buffer do scanner
 
@@ -125,7 +122,7 @@ public class ProdutoView {
                 System.out.println("Digite a nova quantidade:");
                 int novaQtd = scan.nextInt();
                 produto.setQtd(novaQtd);
-                break;          
+                break;
             default:
                 System.out.println("Opção inválida.");
                 break;

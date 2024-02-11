@@ -31,10 +31,7 @@ public class VendedorView {
         System.out.println("Vendedores:");
         System.out.println("---------------------------");
 
-        for (Vendedor v : this.vendedores) {
-            System.out.println(v.toString());
-            System.out.println("---------------------------");
-        }
+        vendedores.forEach((v) -> System.out.println(v.toString() + "\n---------------------------"));
     }
 
     /**

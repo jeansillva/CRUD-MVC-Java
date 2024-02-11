@@ -31,10 +31,7 @@ public class ClienteView {
         System.out.println("Clientes:");
         System.out.println("---------------------------");
 
-        for (Cliente v : this.clientes) {
-            System.out.println(v.toString());
-            System.out.println("---------------------------");
-        }
+        clientes.forEach((v) -> System.out.println(v.toString() + "\n---------------------------"));
     }
 
     /**
