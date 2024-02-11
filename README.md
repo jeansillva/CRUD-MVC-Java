@@ -9,4 +9,4 @@ Este commit atualiza o projeto para se tornar um único repositório com todo o 
 O sistema suporta operações de CRUD (criar, ler, atualizar e excluir) para clientes, vendedores e produtos no banco de dados.
 
 # Autores
-Almo Contim (@almocontim), Gabriel Henrique de Oliveira Moura (@mouragho), Jean Carlos Oliveira da Silva (@jeansillva) e Sâmeck Zanela Costa (@mrzanela).
+Almo Contim @almocontim, Gabriel Henrique de Oliveira Moura @mouragho, Jean Carlos Oliveira da Silva @jeansillva e Sâmeck Zanela Costa @mrzanela.
